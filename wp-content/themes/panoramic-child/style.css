@@ -1,0 +1,94 @@
+/*
+ Theme Name:   Panoramic Child
+ Description:  Panoramic Child Theme
+ Author:       Laura Greenberg
+ Author URI:   http://www.laura-greenberg.com
+ Template:     panoramic
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  panoramic-child
+*/
+
+/******BASE STYLES *******/
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .site-footer-widgets ul li h2.widgettitle{
+  color:#603813;
+  font-family:"Montserrat", sans-serif!important;
+}
+
+h1{
+  font-weight:bold;
+}
+
+body{
+    background: url(http://tiedyedrevamp.staging.wpengine.com/wp-content/uploads/2016/12/Untitled-1.png);
+}
+
+/*****HEADER *******/
+
+#masthead{
+   background: url(http://tiedyedrevamp.staging.wpengine.com/wp-content/uploads/2016/12/Untitled-1.png);
+}
+
+/*****MAIN AREA *********/
+
+.woocommerce #container, .woocommerce-page #container, .content-area{
+  width:98%;
+  margin:0 auto;
+}
+
+.widget_text{
+  width:40%;
+  font-size:28px;
+  text-align:center;
+}
+
+.wpcs_product_carousel_slider .owl-item .item img {
+    width: 100px;
+    margin-left: 40px;
+}
+
+
+.entry-content{
+  padding:0;
+}
+/*********FOOTER ***********/
+.site-footer-widgets{
+  background-image:url(http://tiedyedrevamp.staging.wpengine.com/wp-content/uploads/2016/12/Untitled-1.png);
+  padding:0 0 20px 0;
+}
+.site-footer-widgets .widget ul li {
+    margin: 0 0 2px;
+    padding: 0;
+    display: inline-block;
+    float: left;
+}
+
+.site-footer-widgets .site-container > ul > li {
+  width:45%;
+}
+
+div.crafty-social-buttons ul li img {
+  padding-right:15%;
+}
+
+.site-footer-bottom-bar{
+  height:auto;
+  padding:0;
+}
+
+.entry-footer{
+  display:none;
+}
+
+/*****REVIEWS PAGE ******/
+.entry-content h1 span, .entry-content h1, .entry-content p span{
+  font-family:"Lato", sans-serif!important;
+  color:#603813;
+}
+
+.entry-content h1 span{
+  font-size:20px!important;
+}

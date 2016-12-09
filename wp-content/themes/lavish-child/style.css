@@ -1,0 +1,435 @@
+/*
+ Theme Name:   Lavish Child
+ Description:  Lavish Child Theme
+ Author:       Laura Greenberg
+ Author URI:   http://www.laura-greenberg.com
+ Template:     lavish
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ Text Domain:  lavish-child
+*/
+
+/****MAIN STYLES*****/
+
+
+body{
+  width:100%;
+  margin:0;
+}
+
+element.style, h1 span, p span, h1, h2, h3, h4, h5, h6, p {
+  font-family:"Dekko", sans-serif!important;
+}
+
+p{
+  font-size:2rem;
+}
+
+/****HEADER*****/
+#la-banner{
+  background-size:cover;
+  background-repeat:no-repeat;
+  min-height:275px;
+}
+
+
+/*TOP NAVIGATION*/
+a.toggle_button_lavish_menu:before{
+  font-size:1.5em;
+}
+.lavish_header .lavish_head{
+  height:25px;
+}
+
+a.toggle_button_lavish_menu{
+  margin:0 5%;
+  color:#5f91cc;
+}
+
+.lavish_menus{
+  width:100%;
+}
+
+
+ul.mobilemenu{
+  background-color:#5f91cc;
+}
+
+ul.mobilemenu > li > a{
+  color:white;
+}
+
+.mobilemenu .current_page_item > a{
+  background-color:#78afce;
+}
+
+a.toggle_button_lavish_menu:hover {
+  color:#78afce;
+}
+/*Product Listings*/
+
+.lr_widgets_cta{
+  background-color:#61be85;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  display:none;
+}
+
+a{
+  color:white;
+  font-family:"dekko", sans-serif;
+  text-transform:uppercase;
+  font-size:1.5em;
+  margin:0 5%;
+}
+
+.textwidget{
+  text-align:center;
+  font-size:20px;
+}
+
+.row{
+  margin:0;
+}
+
+.col-md-12{
+  width:100%;
+  margin:0;
+}
+
+img.size-full{
+  height:70px;
+  width:auto;
+  margin:0;
+}
+
+/*****MAIN AREA ******/
+.entry-content p a{
+  margin:0;
+  font-size:18px;
+}
+
+.images{
+  margin-bottom:20px;
+  display:flex;
+  justify-content:center;
+}
+
+.la-content-inside{
+  width:98%;
+  padding:2%;
+}
+
+.la-contents {
+  background-image:url(http://localhost:8080/tiedyedtwo/wp-content/uploads/2016/12/background-891x1024.jpg);
+}
+
+article a{
+  color:#587458;
+  font-size:1.2em;
+}
+
+.btn{
+  background-color:#5f91cc;
+}
+
+.wpcs_product_carousel_slider .owl-item .item h4.product_name a{
+    font-family:"dekko", sans-serif;
+}
+
+.btn-sm{
+  font-size:.5em;
+}
+
+
+
+/****FOOTER*****/
+
+/*******testimonials ********/
+.lr_widgets_bottom_widget {
+  background-color:#78afce;
+  border-top:0;
+  font-family:"dekko", sans-serif;
+  margin-top:-50px;
+}
+
+.lr_widgets_bottom_widget p{
+  font-size:20px;
+}
+
+.lr_widgets_bottom_widget h3{
+  font-family:"Dekko", sans-serif;
+  color:white;
+}
+
+
+#bottom1, #bottom3{
+  background-color:#5f91cc;
+}
+
+.lavish_footer{
+  background-color:#78afce;
+  padding:0;
+}
+
+.lavish_footer p{
+  font-size:14px;
+}
+
+.lr_widgets_bottom_widget div{
+  text-align:center;
+}
+
+.entry-meta{
+  display:none;
+}
+
+#ewic-widget-3{
+  display:none;
+}
+
+
+div#text-10.widget.widget_text
+{
+  font-size:20px;
+}
+
+.email a{
+  font-size:20px;
+}
+
+#text-10 a{
+  font-family:"dekko", sans-serif;
+  margin:0;
+}
+
+/******PRODUCT PAGES ******/
+.style_breadcrumbs{
+  display:none;
+}
+.la-contents{
+  padding-top:10%;
+}
+
+.woocommerce div.product span.price, .woocommerce div.product p.price{
+  color:#587458!important;
+}
+
+span.woocommerce-Price-amount.amount{
+  font-size:18px;
+}
+
+.p1, span.s1{
+  font-size:18px;
+}
+
+button.btn.btn-sm {
+    font-size: 16px;
+    font-family: "Dekko",san-serif;
+}
+
+/****REVIEWS******/
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active{
+  background-color:#5ab97d;
+}
+
+p.woocommerce-noreviews, p.comment-form-rating, p.comment-form-comment{
+  font-size: 1.2rem;
+}
+
+.comment-form-rating{
+  margin-top:5%;
+}
+
+h3#reply-title{
+  padding-bottom:5%;
+}
+
+/****CART******/
+.btn-sm {
+    font-size: .75rem;
+    font-family: "Dekko",sans-serif;
+}
+
+
+
+
+/****CHECKOUT ******/
+
+.woocommerce-checkout #payment ul.payment_methods, div.payment_box{
+  background-color:#5f91cc;
+}
+
+.woocommerce-checkout #payment div.payment_box{
+  background-color:#5f91cc!important;
+}
+
+.form-row.place-order{
+    background-color:#5f91cc!important;
+}
+
+.woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt{
+  background-color:#5ab97d!important;
+  font-size:22px;
+  font-family:"Dekko",sans-serif;
+}
+
+payment_box payment_method_express_checkout p{
+  font-size:1em;
+}
+
+.woocommerce table.shop_table td, .woocommerce table.shop_table th{
+  font-size:1.4em;
+  font-family:"Dekko", sans-serif;
+}
+
+.woocommerce-info{
+  background-color:#5ab97d;
+  border-top-color:#61be85;
+}
+
+
+
+/**arrow pointing up*****/
+.woocommerce-checkout #payment div.payment_box:after{
+  border:0!important;
+}
+
+.woocommerce form .form-row label{
+  font-size:18px;
+}
+
+#express_checkout_button_text{
+  font-family:"Dekko", sans-serif;
+  font-size:18px;
+  color:#587458;
+
+}
+
+
+@media (min-width:740px)
+{
+
+  /*******TOP NAVIGATION **********/
+.a.toggle_button_lavish_menu{
+  width:50%;
+  color:#5f91cc;
+}
+
+.lavish-logo{
+  display:none;
+}
+
+.lavish_header .lavish_head{
+  height:50px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.lavish_menus{
+  width:100%;
+}
+/*****HEADER*******/
+
+#la-banner{
+  min-height:350px;
+}
+
+/*******PICTURES***********/
+img.size-full{
+  height:150px;
+  width:auto;
+}
+
+}
+
+@media (min-width:950px)
+{
+
+
+/*****TOP NAVIGATION*******/
+
+ul.navmenu > li >  a, .navmenu ul > li >  a{
+  line-height:16px!important;
+  font-size:17px;
+}
+
+.lavish_logo{
+    display:none;
+}
+
+.lavish_menus{
+    width:100%;
+    margin-top:1%;
+  }
+
+ul.navmenu, .navmenu > ul{
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+
+a.toggle_button_lavish_menu{
+  margin-top:10px;
+}
+
+.lavish_menus ul li{
+   margin:0;
+   width:25%;
+   text-align:center;
+}
+
+.lavish-logo{
+    display:none!important;
+  }
+
+.lavish_header .lavish_head{
+    height:65px;
+}
+
+.navmenu .current_page_item > a, .navmenu .current_page_ancestor > a, .navmenu .current-menu-item > a, .navmenu .current-menu-ancestor > a{
+  background-color:#78afce;
+  margin:0;
+}
+
+ul.navmenu > li:hover > a{
+  background-color:#5f91cc!important;
+}
+
+ul.navmenu > li >  a, .navmenu ul > li >  a{
+  line-height:50px;
+}
+
+
+#la-banner{
+  height:500px;
+}
+
+.lavish_head .container{
+  width:100%;
+}
+
+/*****MAIN*****/
+img.size-full{
+  margin:-1px;
+  height:200px;
+  width:auto;
+}
+
+/*******TESTIMONIALS ******/
+
+#bottom1, #bottom3{
+  background-color:#78afce;
+}
+
+
+}
+
+@media screen and (max-width: 1000px){
+
+.lavish_logo{
+    display:none!important;
+  }
+}
